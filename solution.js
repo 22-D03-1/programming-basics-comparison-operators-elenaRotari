@@ -5,7 +5,7 @@ const appleGleichOrange = apples === oranges;
 const appleNichtGleich = apples !== oranges;
 const appleGrosserhOrange = apples > oranges;
 const appleKleineroderGleichOrange = apples <= oranges;
-const orangeGrosserApples = apples === oranges;
+const orangeGrosserApples = apples > oranges;
 
 console.log(appleGleichOrange);
 console.log(appleNichtGleich);
